@@ -13,7 +13,7 @@
 }
 #logo{
     height: 50px;
-    width: 170px;
+    width: 210px;
     font-size: 24px;
     font-weight: 600;
     color: white;
@@ -60,29 +60,44 @@
 }
 
 #info{
-    justify-content: space-between;
+    width: 97%;
+    height: 82.5vh;
     align-items: center;
     margin: 20px 20px;
     display: grid;
-    grid-template-areas: "info1 info2 info3"
-    "info4 info2 info5";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 #title{
-    width: 330px;
-    height: 350px;
-    grid-area: info1;
+    width: 33%;
     font-size: 70px;
     font-weight: 900;
     color: white;
     display: flex;
     text-align: right;
     align-items: center;
+    font-family: 'Audiowide', cursive;
 }
 #title2{
-    width: 330px;
-    height: 350px;
-    grid-area: info5;
+    width: 33%;
+    grid-row: 2 / 3;
+    grid-column: 3 / auto;
     font-size: 70px;
     font-weight: 900;
     color: white;
+    font-family: 'Audiowide', cursive;
+
+}
+#intro{
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    width: 33%;
+    color: white;;
+}
+#intro h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+#image{
+    width: 33%;
 }
