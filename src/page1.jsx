@@ -79,28 +79,28 @@ export default function Page1() {
           </h3>
           <a href="https://www.linkedin.com/in/akhilesh-sude/" target="_blank">
             <img
-              src="./src/assets/linkedin.jpeg"
+              src="/src/assets/linkedin.jpeg"
               alt="linkedin"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
           </a>
           <a href="https://www.instagram.com/akhilesh_sude/" target="_blank">
             <img
-              src="./src/assets/insta.jpeg"
+              src="/src/assets/insta.jpeg"
               alt="instagram"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
           </a>
           <a href="mailto:akhileshsude656@gmail.com" target="_blank">
             <img
-              src="./src/assets/mail.png"
+              src="/src/assets/mail.png"
               alt="gmail"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
           </a>
           <a href="https://github.com/akhileshsude" target="_blank">
             <img
-              src="./src/assets/github.png"
+              src="/src/assets/github.png"
               alt="github"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
