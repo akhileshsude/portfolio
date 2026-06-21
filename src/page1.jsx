@@ -1,10 +1,16 @@
-// 
-
 import react from "react";
+import backgroundImage from "./assets/ChatGPT Image Jun 6, 2026, 12_03_11 AM.png";
+import linkedin from "./assets/linkedin.jpeg";
+import insta from "./assets/insta.jpeg";
+import mail from "./assets/mail.png";
+import githubIcon from "./assets/github.png";
 
 export default function Page1() {
   return (
-    <div className="bg-[url('/src/assets/ChatGPT%20Image%20Jun%206,%202026,%2012_03_11%20AM.png')] bg-cover h-screen w-screen bg-no-repeat bg-center snap-start">
+    <div
+      className="bg-cover h-screen w-screen bg-no-repeat bg-center snap-start"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
       <div
         id="navbar"
         className="flex justify-between items-center px-[2.86vw] py-[1.43vw]"
@@ -79,28 +85,28 @@ export default function Page1() {
           </h3>
           <a href="https://www.linkedin.com/in/akhilesh-sude/" target="_blank">
             <img
-              src="/src/assets/linkedin.jpeg"
+              src={linkedin}
               alt="linkedin"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
           </a>
           <a href="https://www.instagram.com/akhilesh_sude/" target="_blank">
             <img
-              src="/src/assets/insta.jpeg"
+              src={insta}
               alt="instagram"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
           </a>
           <a href="mailto:akhileshsude656@gmail.com" target="_blank">
             <img
-              src="/src/assets/mail.png"
+              src={mail}
               alt="gmail"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
           </a>
           <a href="https://github.com/akhileshsude" target="_blank">
             <img
-              src="/src/assets/github.png"
+              src={githubIcon}
               alt="github"
               className="inline-block pl-[0.36vw] w-[2.86vw] h-[2.86vw] bg-transparent transition-transform duration-300 ease-in-out hover:scale-125"
             />
