@@ -5,7 +5,7 @@ import insta from "./assets/insta.jpeg";
 import mail from "./assets/mail.png";
 import githubIcon from "./assets/github.png";
 
-export default function Page1() {
+export default function Home() {
   return (
     <div
       className="bg-cover h-screen w-screen bg-no-repeat bg-center snap-start"
@@ -37,7 +37,7 @@ export default function Page1() {
             target=""
             className="no-underline text-white py-[0.71vw] px-[1.43vw] rounded-[0.36vw] transition-colors duration-300 ease-in-out hover:text-[yellow] hover:bg-[#2b459a50]"
           >
-            Tech Stacks
+            Skills
           </a>
           <a
             href=""

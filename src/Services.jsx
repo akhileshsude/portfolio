@@ -5,7 +5,7 @@ import webDev from "./assets/web-dev.png";
 import automation from "./assets/web-redes.png";
 import aiAuto from "./assets/ai-auto.png";
 
-export default function Page3() {
+export default function Services() {
   return (
     <div
       className="bg-cover h-screen w-screen bg-no-repeat bg-center snap-start flex flex-col justify-center"
