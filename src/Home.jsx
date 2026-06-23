@@ -26,8 +26,8 @@ export default function Home() {
           className="flex justify-center items-center gap-[1.43vw] m-[1.43vw] text-[1.2vw]"
         >
           <a
-            href=""
-            target="_blank"
+            href="."
+            target=""
             className="no-underline text-white py-[0.71vw] px-[1.43vw] rounded-[0.36vw] transition-colors duration-300 ease-in-out hover:text-[yellow] hover:bg-[#2b459a50]"
           >
             Home
@@ -40,22 +40,22 @@ export default function Home() {
             Skills
           </a>
           <a
-            href=""
-            target="_blank"
+            href="#page3"
+            target=""
             className="no-underline text-white py-[0.71vw] px-[1.43vw] rounded-[0.36vw] transition-colors duration-300 ease-in-out hover:text-[yellow] hover:bg-[#2b459a50]"
           >
             Services
           </a>
           <a
-            href=""
-            target="_blank"
+            href="#page4"
+            target=""
             className="no-underline text-white py-[0.71vw] px-[1.43vw] rounded-[0.36vw] transition-colors duration-300 ease-in-out hover:text-[yellow] hover:bg-[#2b459a50]"
           >
             Projects
           </a>
           <a
-            href=""
-            target="_blank"
+            href="#page5"
+            target=""
             className="no-underline text-white py-[0.71vw] px-[1.43vw] rounded-[0.36vw] transition-colors duration-300 ease-in-out hover:text-[yellow] hover:bg-[#2b459a50]"
           >
             Contact
