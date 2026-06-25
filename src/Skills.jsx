@@ -104,7 +104,7 @@ export default function Skills() {
       {showHomeButton && (
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-6 right-6 z-50 inline-flex items-center justify-center rounded-full bg-blue-900 p-4 text-white shadow-lg hover:bg-blue-500 hover:scale-115 active:scale-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700 transition-all duration-200"
+          className="fixed bottom-6 right-6 z-50 inline-flex items-center justify-center rounded-full bg-blue-900 p-4 text-white shadow-lg hover:bg-blue-500 hover:scale-115 active:scale-95 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-blue-700 transition-all duration-200"
           aria-label="Go to home"
         >
           <img src={homeIcon} alt="Home" className="h-6 w-6" />

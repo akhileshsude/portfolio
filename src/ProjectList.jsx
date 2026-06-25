@@ -1,3 +1,4 @@
+
 const BestWork = [
     {
       title: "Movie Ticketing Platform",
@@ -29,11 +30,11 @@ export default BestWork;
 
 export const Websites = [
     {
-      title: "SpaceScope Dashboard",
+      title: "BookMyShow Clone",
       description:
         "Real-time ISS tracking dashboard featuring live space data and visual analytics.",
       image:
-        "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200",
+        "https://drive.google.com/file/d/1gLM_Ow3Pj9ltw7cQ1ntfRfmh_Yhj71Ne/view?usp=drive_link",
       tech: ["React", "API", "Charts"],
     },
   ];

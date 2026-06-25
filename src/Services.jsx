@@ -2,7 +2,7 @@
 
 import bgImage from "./assets/bg.png";
 import webDev from "./assets/web-dev.png";
-import automation from "./assets/web-redes.png";
+import automation from "./assets/webredes.png";
 import aiAuto from "./assets/ai-auto.png";
 
 export default function Services() {
@@ -19,21 +19,21 @@ export default function Services() {
           <img
             src={webDev}
             alt="Website Development"
-            className="rounded-3xl w-[20vw] h-[40vw]"
+            className="rounded-3xl w-[20vw] h-[40vw] brightness-90"
           />
         </div>
         <div className="w-[20vw] h-[40vw] bg-[#1a1a1a] rounded-3xl flex flex-col justify-center items-center gap-4 transition-transform duration-500 ease-in-out hover:scale-105">
           <img
             src={automation}
             alt="Automation"
-            className="rounded-3xl  w-[20vw] h-[40vw]"
+            className="rounded-3xl  w-[20vw] h-[40vw] brightness-90"
           />
         </div>
         <div className="w-[20vw] h-[40vw] bg-[#1a1a1a] rounded-3xl flex flex-col justify-center items-center gap-4 transition-transform duration-500 ease-in-out hover:scale-105">
           <img
             src={aiAuto}
             alt="AI Solutions"
-            className="rounded-3xl   w-[20vw] h-[40vw]"
+            className="rounded-3xl   w-[20vw] h-[40vw] brightness-87"
           />
         </div>
       </div>
