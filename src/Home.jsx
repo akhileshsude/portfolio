@@ -58,7 +58,7 @@ export default function Home() {
             target=""
             className="no-underline text-white py-[0.71vw] px-[1.43vw] rounded-[0.36vw] transition-colors duration-300 ease-in-out hover:text-[yellow] hover:bg-[#2b459a50]"
           >
-            Contact
+            About
           </a>
         </nav>
         <div
